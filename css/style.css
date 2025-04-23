@@ -25,6 +25,7 @@ html,
 body {
   width: 100%;
   min-height: 100vh;
+  font-family: "Plus Jakarta Sans", sans-serif;
   background: #ffffff;
   color: #222;
 }
@@ -38,7 +39,6 @@ header.top-bar {
   justify-content: space-between;
   align-items: center;
   padding-inline: 7rem;
-  font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 400;
   font-size: 14px;
   color: #1c1c1c;
@@ -63,7 +63,6 @@ header.top-bar {
 }
 
 .top-bar strong {
-  font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 700;
   font-size: 14px;
   margin: 0 4px;
@@ -79,11 +78,6 @@ header.top-bar {
 }
 
 /* Sidebar */
-/* Oculta o input */
-.menu-toggle {
-  display: none;
-}
-
 .sidebar {
   display: flex;
   justify-content: space-between;
@@ -108,7 +102,6 @@ header.top-bar {
   display: flex;
   align-items: center;
   gap: 0.4rem;
-  font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 700;
   font-size: 16px;
   color: #1c1c1c;
@@ -134,8 +127,6 @@ header.top-bar {
 }
 
 .social {
-  top: 62px;
-  left: 1219px;
   display: flex;
   gap: 0.5rem;
 }
@@ -178,8 +169,6 @@ header.top-bar {
 }
 
 .sidebar-left .btn-audio {
-  top: 434px;
-  left: 50px;
   width: 46px;
   height: 46px;
   background: rgba(229, 29, 53, 0);
@@ -197,7 +186,6 @@ header.top-bar {
 }
 
 .sidebar-left span {
-  font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 700;
   font-size: 16px;
   color: #1c1c1c;
@@ -254,1027 +242,12 @@ header.top-bar {
   display: none;
 }
 
-/* Conteúdo principal */
-.content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-inline: 7rem;
-  width: 100%;
-  margin-top: 2rem;
-}
-
-.main-nav {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-
-.main-nav a {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  color: inherit;
-}
-
-.main-nav .home {
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: 400;
-  font-size: 22px;
-  text-transform: capitalize;
-  letter-spacing: -0.22px;
-  color: #1c1c1c;
-}
-
-.cinema {
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: 700;
-  font-size: 22px;
-  text-transform: capitalize;
-  letter-spacing: -0.22px;
-  color: #1c1c1c;
-}
-
-.main-nav img {
-  width: 24px;
-  height: 28px;
-  margin-right: 6px;
-}
-
-.curious {
-  display: flex;
-  align-items: center;
-  margin-top: 2.5rem;
-  gap: 2px;
-}
-
-.bar-1 {
-  top: 197px;
-  left: 696px;
-  width: 4px;
-  height: 18px;
-  background-color: #e51d35;
-  opacity: 1;
-}
-
-.curiosities-text-desktop {
-  top: 197px;
-  left: 703px;
-  width: 100%;
-  height: 15px;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: 700;
-  font-size: 12px;
-  text-align: left;
-  text-transform: uppercase;
-  color: #1c1c1c;
-  opacity: 1;
-}
-
-.curiosities-text-mobile {
-  display: none;
-}
-
-.title {
-  top: 229px;
-  left: 256px;
-  width: 100%;
-  height: 113px;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: 700;
-  font-size: 48px;
-  text-align: center;
-  text-transform: none;
-  letter-spacing: 0;
-  color: #1c1c1c;
-  opacity: 1;
-  padding-inline: 4rem;
-  margin-top: 1rem;
-}
-
-.breaking {
-  top: 350px;
-  left: 256px;
-  width: 100%;
-  height: 23px;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  text-align: center;
-  text-transform: none;
-  letter-spacing: 0;
-  color: #575757;
-  opacity: 1;
-  padding-inline: 4rem;
-  margin-top: 2rem;
-}
-
-.author {
-  top: 397px;
-  left: 546px;
-  width: 398px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  margin-top: 2.5rem;
-  gap: 4px;
-  opacity: 1;
-}
-
-.author-info {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.author img {
-  top: 397px;
-  left: 546px;
-  width: 40px;
-  height: 40px;
-  background: transparent;
-  box-shadow: 0px 5px 10px #0000001a;
-  border-radius: 20px;
-  opacity: 1;
-}
-
-.author-info .name {
-  top: 408px;
-  left: 598px;
-  width: 96px;
-  height: 18px;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: 700;
-  font-size: 14px;
-  letter-spacing: 0;
-  color: #1c1c1c;
-  opacity: 1;
-}
-
-.bar-2 {
-  top: 197px;
-  left: 696px;
-  width: 1px;
-  height: 40px;
-  background-color: #dddddd;
-  opacity: 1;
-}
-
-.time-desktop {
-  top: 408px;
-  left: 722px;
-  width: 250px;
-  height: 18px;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  text-align: left;
-  text-transform: none;
-  letter-spacing: 0;
-  color: #575757;
-  opacity: 1;
-}
-
-.time-mobile {
-  display: none;
-}
-
-.featured-image {
-  top: 461px;
-  left: 145px;
-  width: 100%;
-  height: 603px;
-  margin-top: 2rem;
-  opacity: 1;
-}
-
-.featured-image img {
-  top: 461px;
-  left: 145px;
-  width: 100%;
-  height: 580px;
-  border-radius: 6px;
-  align-items: center;
-  opacity: 1;
-}
-
-.featured-image .legend {
-  top: 1049px;
-  left: 377px;
-  width: 100%;
-  height: 15px;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: 400;
-  font-size: 12px;
-  text-align: center;
-  text-transform: none;
-  letter-spacing: 0;
-  color: #1c1c1c;
-  opacity: 1;
-}
-
-.rows {
-  display: flex;
-  width: 100%;
-  gap: 2rem;
-  margin-top: 1rem;
-}
-
-.col-8,
-.col-4 {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  gap: 1rem;
-  box-sizing: border-box;
-}
-
-.col-8 {
-  flex: 0 0 66.666%;
-  box-sizing: border-box;
-  top: 1098px;
-  left: 145px;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-  text-align: left;
-  text-transform: none;
-  letter-spacing: 0;
-  color: #1c1c1c;
-  opacity: 1;
-}
-
-.read-plus {
-  top: 1595px;
-  left: 145px;
-  width: 100%;
-  height: 208x;
-  padding: 1rem;
-  background: #fdfdfd 0% 0% no-repeat padding-box;
-  border: 1px solid #e0e0e0;
-  border-radius: 6px;
-  opacity: 1;
-}
-
-.read-plus h3 {
-  top: 1605px;
-  left: 167px;
-  width: 131px;
-  height: 61px;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: 700;
-  font-size: 48px;
-  text-align: left;
-  text-transform: none;
-  letter-spacing: -0.96px;
-  color: #1c1c1c;
-  text-transform: capitalize;
-  opacity: 1;
-}
-
-.read-plus p {
-  top: 1714px;
-  left: 167px;
-  width: 100%;
-  height: 69px;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  text-align: left;
-  text-transform: none;
-  letter-spacing: 0px;
-  color: #1c1c1c;
-  margin-top: 1rem;
-  opacity: 1;
-}
-
-.curiousities {
-  display: flex;
-  justify-content: space-between;
-  gap: 1.5rem;
-}
-
-.curious-block {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.curiosities-text {
-  top: 197px;
-  left: 703px;
-  width: 100%;
-  height: 15px;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  text-align: left;
-  text-transform: uppercase;
-  color: #1c1c1c;
-  opacity: 1;
-}
-
-.curious-text {
-  top: 1714px;
-  left: 167px;
-  width: 226px;
-  height: 69px;
-  text-align: left;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  text-transform: none;
-  letter-spacing: 0px;
-  color: #1c1c1c;
-  opacity: 1;
-}
-
-.todd {
-  display: flex;
-  justify-content: space-between;
-  gap: 2rem;
-}
-
-.todd p {
-  top: 1992px;
-  left: 145px;
-  width: 376px;
-  height: 185px;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-  text-align: left;
-  text-transform: none;
-  letter-spacing: 0px;
-  color: #1c1c1c;
-  opacity: 1;
-}
-
-.friends {
-  display: flex;
-  flex-direction: column;
-  gap: 0.1rem;
-}
-
-.friends figure {
-  top: 1992px;
-  left: 555px;
-  width: 376px;
-  height: 250px;
-  opacity: 1;
-}
-
-.friends figcaption {
-  top: 2249px;
-  left: 555px;
-  width: 376px;
-  height: 38px;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  text-align: left;
-  text-transform: none;
-  letter-spacing: 0px;
-  color: #1c1c1c;
-  opacity: 1;
-}
-
-.quote-container {
-  max-width: 600px;
-  padding: 1rem;
-  position: relative;
-}
-
-.quote-mark {
-  position: absolute;
-  top: -20px;
-  left: 0px;
-  font-size: 8rem;
-  font-family: serif;
-  font-weight: 700;
-  background: transparent linear-gradient(135deg, #ff7e99 40%, #ffffff 60%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  line-height: 1;
-  pointer-events: none;
-  z-index: 0;
-}
-
-.quote-content {
-  margin-left: 1rem;
-  position: relative;
-  z-index: 1;
-}
-
-.quote-text {
-  top: 2567px;
-  left: 178px;
-  width: 590px;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: 700;
-  font-size: 28px;
-  text-align: left;
-  text-transform: none;
-  color: #1c1c1c;
-  line-height: 1.5;
-  margin: 0;
-}
-
-.quote-author {
-  font-size: 0.75rem;
-  color: #777;
-  margin-top: 0.5rem;
-}
-
-.continuate {
-  top: 2916px;
-  left: 145px;
-  width: 658px;
-  height: 205px;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: 700;
-  font-size: 28px;
-  text-align: left;
-  text-transform: none;
-  border-radius: 6px;
-  border: 1px solid #e51d35;
-  padding: 1rem;
-  opacity: 1;
-}
-
-.inquete {
-  top: 3374px;
-  left: 145px;
-  width: 480px;
-  background: #ffffff;
-  border: 1px solid #e51d35;
-  border-radius: 6px;
-  padding: 1rem;
-  opacity: 1;
-}
-
-.inquete-title {
-  top: 3396px;
-  left: 167px;
-  width: 436px;
-  height: 60px;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: 700;
-  font-size: 24px;
-  text-align: left;
-  text-transform: none;
-  border-radius: 6px;
-  color: #e51d35;
-  opacity: 1;
-}
-
-.inquete-block span {
-  top: 3472px;
-  left: 167px;
-  width: 434px;
-  height: 30px;
-  margin-left: 1rem;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  text-align: left;
-  text-transform: none;
-  opacity: 1;
-}
-
-.inquete-block input {
-  cursor: pointer;
-}
-
-.inquete-block p {
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  text-align: left;
-  text-transform: none;
-  margin-right: 10px;
-}
-
-.inquete button {
-  top: 3640px;
-  left: 167px;
-  width: 100%;
-  height: 40px;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  text-align: center;
-  text-transform: none;
-  color: #1c1c1c;
-  border: 1px solid #e51d35;
-  text-align: center;
-  letter-spacing: 0px;
-  border-radius: 4px;
-  margin-top: 1rem;
-  opacity: 1;
-  cursor: pointer;
-}
-
-.inquete button:hover {
-  background: #e51d35;
-  color: #ffffff;
-}
-
-.divider-3 {
-  max-width: 1490px;
-  border: none;
-  border-top: 1px solid #dddddd;
-}
-
-.tags {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-
-.label {
-  top: 3770px;
-  left: 145px;
-  width: 104px;
-  height: 61px;
-  margin: 0;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 1;
-  letter-spacing: -0.96px;
-  color: #1c1c1c;
-  text-transform: capitalize;
-}
-
-.tag-list {
-  display: flex;
-  gap: 0.5rem;
-  align-items: center;
-}
-
-.tag {
-  top: 3784px;
-  left: 265px;
-  width: 100%;
-  display: inline-block;
-  padding: 4px 8px;
-  border: 1px solid #e51d35;
-  border-radius: 4px;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1;
-  color: #1c1c1c;
-}
-
-.cinema-plus-title {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  margin-bottom: 2rem;
-}
-
-.cinema-plus-title h3 {
-  margin: 0;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-size: 48px;
-  font-weight: 700;
-  text-transform: capitalize;
-  color: #1c1c1c;
-  letter-spacing: -0.96px;
-}
-
-.cinema-plus-title img {
-  width: 24px;
-  height: 28px;
-  align-items: center;
-}
-
-.cinema-plus-title span {
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-size: 22px;
-  font-weight: 700;
-  text-transform: capitalize;
-  color: #1c1c1c;
-  letter-spacing: -0.22px;
-}
-
-.cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
-  gap: 2rem;
-}
-
-.card-block {
-  display: flex;
-  flex-direction: column;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border-radius: 12px;
-  overflow: hidden;
-  color: #fff;
-  position: relative;
-  min-height: 300px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-.card-block::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.2));
-  z-index: 0;
-}
-
-.emojis {
-  width: 100%;
-  display: flex;
-  gap: 2rem;
-  padding: 1rem;
-  position: relative;
-  z-index: 1;
-}
-
-.emojis-content {
-  display: flex;
-  justify-content: center;
-  gap: 7px;
-  padding: 3px 1px;
-  align-items: center;
-  top: 3994px;
-  left: 697px;
-  width: 80px;
-  height: auto;
-  background: #1d1c1d;
-  border-radius: 23px;
-  opacity: 1;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-}
-
-.emojis img {
-  width: 18px;
-  height: 18px;
-}
-
-.card-info {
-  margin-top: auto;
-  padding: 1rem;
-  position: relative;
-  z-index: 1;
-}
-
-.card-info-block {
-  display: flex;
-  align-items: flex-start;
-  gap: 1rem;
-}
-
-.bar-1 {
-  width: 4px;
-  height: 20px;
-  background-color: #e51d35;
-  border-radius: 2px;
-}
-
-.card-title {
-  display: flex;
-  justify-content: space-between;
-  gap: 2px;
-}
-
-.card-text span {
-  top: 4138px;
-  left: 442px;
-  width: 100%;
-  height: 15px;
-  text-align: left;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  letter-spacing: 0px;
-  color: #ffffff;
-  text-transform: uppercase;
-  opacity: 1;
-  font-size: 12px;
-  font-weight: 700;
-  display: block;
-  margin-bottom: 0.5rem;
-  text-transform: capitalize;
-}
-
-.card-text p {
-  top: 4799px;
-  left: 36px;
-  width: 100%;
-  height: 67px;
-  text-align: left;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  letter-spacing: 0px;
-  color: #ffffff;
-  opacity: 1;
-  margin-bottom: 2px;
-  font-size: 18px;
-  line-height: 1.4;
-}
-
-.col-4 {
-  flex: 1;
-}
-
-.explore {
-  top: 1098px;
-  left: 1118px;
-  width: 100%;
-  border: 1px solid #e51d35;
-  background: #fdfdfd;
-  border-radius: 6px;
-  padding: 1rem;
-}
-
-.explore h3 {
-  top: 1098px;
-  left: 1118px;
-  width: 100%;
-  margin-bottom: 1rem;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: 700;
-  font-size: 35px;
-  text-align: left;
-  text-transform: capitalize;
-  letter-spacing: -0.9px;
-  color: #e51d35;
-  opacity: 1;
-}
-
-.explore span {
-  top: 1198px;
-  left: 999px;
-  width: 100%;
-  height: 100%;
-  padding: 0 1rem;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: 700;
-  font-size: 14px;
-  text-align: left;
-  text-transform: none;
-  letter-spacing: 0;
-  color: #1c1c1c;
-  border: 1px solid #e51d35;
-  border-radius: 4px;
-  opacity: 1;
-}
-
-.newsletter {
-  top: 1506px;
-  left: 961px;
-  width: 100%;
-  height: 282px;
-  background: #e51d35;
-  border-radius: 4px;
-  opacity: 1;
-  padding: 1rem;
-  gap: 1rem;
-}
-
-.newsletter h3 {
-  top: 1519px;
-  left: 981px;
-  width: 100%;
-  height: 61px;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: 700;
-  font-size: 35px;
-  text-align: left;
-  text-transform: capitalize;
-  letter-spacing: -0.9px;
-  color: #ffffff;
-  opacity: 1;
-}
-
-.newsletter p {
-  top: 1590px;
-  left: 981px;
-  width: 100%;
-  height: 47px;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  text-align: left;
-  text-transform: none;
-  letter-spacing: 0px;
-  color: #ffffff;
-  opacity: 1;
-}
-
-.newsletter input {
-  top: 1672px;
-  left: 981px;
-  width: 100%;
-  height: 40px;
-  background: #f3f3f5;
-  border-radius: 4px;
-  padding: 1rem;
-  margin-top: 2rem;
-  opacity: 1;
-}
-
-.newsletter button {
-  top: 1728px;
-  left: 981px;
-  width: 100%;
-  height: 40px;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: 700;
-  font-size: 14px;
-  text-align: center;
-  text-transform: capitalize;
-  letter-spacing: 0px;
-  color: #ffffff;
-  background: #e51d35;
-  border: 1px solid #ffffff;
-  border-radius: 4px;
-  margin-top: 1rem;
-  cursor: pointer;
-  opacity: 1;
-}
-
-.newsletter button:hover {
-  color: #ffffff;
-  background: #1c1c1c;
-}
-
-.publicity {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 5rem;
-}
-
-.publicity p {
-  top: 1868px;
-  left: 1118px;
-  width: 100%;
-  height: 15px;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: 400;
-  font-size: 12px;
-  text-align: center;
-  text-transform: capitalize;
-  letter-spacing: 0px;
-  color: #22133f;
-  border-radius: 4px;
-  text-align: center;
-  opacity: 1;
-}
-
-.publicity img {
-  top: 1891px;
-  left: 1003px;
-  width: 70%;
-  height: 250px;
-}
-
-/* Footer */
-footer {
-  margin-top: 4rem;
-  background-color: #1c1c1c;
-  padding: 3rem 7rem;
-  color: #ffffff;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-.footer-container {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  gap: 2rem;
-  overflow-x: auto;
-}
-
-.footer-up {
-  display: flex;
-  justify-content: space-between;
-  gap: 4rem;
-}
-
-.footer-section {
-  flex: 1;
-}
-
-.footer-container > .footer-section:not(.logo-section) {
-  max-width: 25%;
-}
-
-.logo-section {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  white-space: nowrap;
-  min-width: fit-content;
-}
-
-.logo-section span {
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: 700;
-  font-size: 1.3rem;
-  color: #ffffff;
-}
-
-.footer-section h1 {
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: 700;
-  font-size: 27px;
-  color: #ffffff;
-  margin-bottom: 1rem;
-  text-transform: capitalize;
-  white-space: nowrap;
-}
-
-.footer-section ul {
-  list-style: none;
-  padding: 0;
-}
-
-.footer-section li {
-  top: 6456px;
-  left: 20px;
-  width: 100%;
-  height: auto;
-  text-align: left;
-  letter-spacing: 0px;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  color: #ffffff;
-  opacity: 0.7;
-  margin-bottom: 5px;
-}
-
-.footer-section a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.footer-section-logo img {
-  height: 70px;
-  width: 100%;
-  object-fit: contain;
-  background: #ffffff;
-}
-
-.editorials-columns {
-  display: flex;
-  justify-content: space-between;
-  gap: 4rem;
-}
-
-.editorials-column {
-  display: flex;
-  flex-direction: column;
-}
-
-.footer-group {
-  display: flex;
-  justify-content: space-between;
-  gap: 4rem;
-}
-
-.footer-bottom {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 2rem;
-  padding-top: 1rem;
-  font-size: 0.9rem;
-}
-
-.footer-bottom .logos {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
-
-.footer-bottom img {
-  height: 20px;
-  object-fit: contain;
-}
-
 /* RESPONSIVIDADE */
 @media (max-width: 1200px) {
   header.top-bar,
   .divider-1,
-  .sidebar,
-  .content {
+  .sidebar {
     padding-inline: 4rem;
-  }
-
-  .title,
-  .breaking {
-    padding-inline: 2rem;
   }
 
   .sidebar-left {
@@ -1303,7 +276,6 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    justify-content: space-between;
     position: relative;
   }
 
@@ -1339,12 +311,6 @@ footer {
     display: none;
   }
 
-  .title {
-    font-size: 38px;
-  }
-  .breaking {
-    margin-top: 0;
-  }
   .sidebar-bottom {
     display: flex;
     position: fixed;
@@ -1373,8 +339,6 @@ footer {
     gap: 0.5rem;
   }
   .btn-audio-sidebar-bottom {
-    top: 434px;
-    left: 50px;
     width: 100%;
     height: 46px;
     background: rgba(229, 29, 53, 0);
@@ -1391,8 +355,6 @@ footer {
     background-color: #e51d35;
   }
   .bar-2-sidebar-bottom {
-    top: 197px;
-    left: 696px;
     width: 1px;
     height: 70px;
     background-color: #dddddd;
@@ -1401,17 +363,20 @@ footer {
 
   .sidebar-bottom span {
     font-weight: 700;
-    top: 721px;
-    left: 301px;
     width: 35px;
     height: 15px;
     text-align: left;
-    font-family: "Plus Jakarta Sans", sans-serif;
     font-weight: 700;
     font-size: 12px;
     letter-spacing: 0.17px;
     color: #151515;
     opacity: 1;
+  }
+
+  .social-share-logo {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
   }
 
   .social-share-logo a {
@@ -1432,10 +397,9 @@ footer {
   .modo-sidebar-bottom {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
   .modo-sidebar-bottom button {
-    top: 434px;
-    left: 50px;
     width: 46px;
     height: 46px;
     background: rgba(229, 29, 53, 0);
@@ -1469,69 +433,6 @@ footer {
     height: 48px;
     border-radius: 24px;
   }
-
-  .card-block {
-    height: 400px;
-  }
-
-  .rows {
-    flex-direction: column;
-  }
-  .col-8,
-  .col-4 {
-    flex: 0 0 100%;
-  }
-  .publicity {
-    display: none;
-  }
-
-  footer {
-    padding: 1rem 4rem;
-  }
-
-  .footer-container {
-    flex-direction: column-reverse;
-    align-items: flex-start;
-  }
-
-  .footer-up {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 2rem;
-  }
-
-  .footer-section {
-    text-align: start;
-  }
-
-  .footer-group {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: start;
-    gap: 5rem;
-  }
-
-  .editorials-columns {
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 3rem;
-  }
-
-  .footer-section-logo img {
-    max-width: 200px;
-    margin: 0 auto;
-  }
-
-  .footer-bottom {
-    flex-direction: column-reverse;
-    align-items: start;
-    text-align: start;
-    gap: 1rem;
-  }
-
-  .footer-bottom .logos {
-    align-items: start;
-  }
 }
 
 @media (max-width: 480px) {
@@ -1545,155 +446,22 @@ footer {
   .divider-1 {
     padding-inline: 1rem;
   }
-  .content {
-    align-items: start;
-    padding-inline: 1rem;
-  }
-  .title {
-    text-align: start;
-    font-size: 28px;
-    padding-inline: 0;
-  }
-  .curiosities-text-desktop {
-    display: none;
-  }
-  .curiosities-text-mobile {
-    display: block;
-    top: 197px;
-    left: 703px;
-    width: 100%;
-    height: 15px;
-    font-family: "Plus Jakarta Sans", sans-serif;
-    font-weight: 700;
-    font-size: 12px;
-    text-align: left;
-    text-transform: uppercase;
-    color: #1c1c1c;
-    opacity: 1;
-  }
-  .breaking {
-    text-align: start;
-    font-size: 18px;
-    padding-inline: 0;
-  }
-  .author {
-    margin-top: 2.5rem;
-  }
-  .author img {
-    display: none;
-  }
-  .name {
-    display: none;
-  }
-  .bar-2 {
-    display: none;
-  }
-  .time-desktop {
-    display: none;
-  }
-  .time-mobile {
-    display: block;
-    top: 408px;
-    left: 722px;
-    width: 250px;
-    height: 18px;
-    font-family: "Plus Jakarta Sans", sans-serif;
-    font-weight: 400;
-    font-size: 10px;
-    text-align: left;
-    text-transform: none;
-    letter-spacing: 0;
-    color: #575757;
-    opacity: 1;
-  }
-  .featured-image {
-    margin-bottom: -18rem;
-  }
-  .featured-image img {
-    max-height: 600px;
-    height: 280px;
-    width: 100%;
-    object-fit: cover;
-  }
-  .featured-image .legend {
-    text-align: start;
-  }
-
-  .sidebar-right .sidebar-left {
+  .sidebar-right,
+  .sidebar-left {
     display: none;
   }
 
-  .row {
-    margin-top: 2rem;
-  }
-  .read-plus {
+  .sidebar-bottom {
     display: flex;
-    flex-direction: column;
-    border: 1px solid #e51d35;
-  }
-  .curiousities {
-    display: flex;
-    flex-direction: column;
-    gap: 1px;
-  }
-
-  .friends {
-    display: none;
-  }
-  .col-8 p {
-    margin-top: 1rem;
-  }
-  .quote-container p {
-    width: 100%;
-    margin-top: -0.1rem;
-  }
-  .continuate {
-    width: 100%;
-    height: 100%;
-  }
-  .inquete {
-    width: 100%;
-  }
-  .divider-3 {
-    display: none;
-  }
-  .tags {
-    margin-top: 1rem;
-  }
-  .card-block {
-    height: 100px;
-  }
-  .inquete-title {
-    width: 100%;
-    height: 40%;
-    font-size: 22px;
-    margin-bottom: 1rem;
-  }
-  .card-block {
-    height: 500px;
-  }
-  .emojis-content {
-    display: none;
-  }
-  .explore {
-    width: 100%;
-  }
-  .tags {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-  }
-  footer {
-    padding: 1rem;
-  }
-  .footer-up {
-    width: 100%;
-  }
-  .footer-group {
-    flex-direction: row;
     justify-content: space-between;
-    align-items: start;
-    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .social-share-logo {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
   }
 }
 
@@ -1704,8 +472,5 @@ footer {
     flex-direction: column;
     gap: 0.5rem;
     padding-inline: 1rem;
-  }
-  .title {
-    font-size: 26px;
   }
 }
